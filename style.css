@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+.clock {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.space {
+    width: 10px;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+}
+
+.blink {
+    -webkit-animation: blink2 1s linear infinite;
+    animation: blink2 1s linear infinite;
+}
+@-webkit-keyframes blink2 {
+    100% { color: rgba(148, 43, 43, 0); }
+}
+@keyframes blink2 {
+    100% { color: rgba(34, 34, 34, 0); }
+}
